@@ -13,7 +13,7 @@ public class BaceClass {
 	public WebDriver driver;
 	public PropertyFile p=new PropertyFile();
 	
-	
+	//@BeforeMethod is used before the method
 	@BeforeMethod
 	public void openApp() throws IOException {
 		driver=new ChromeDriver();
