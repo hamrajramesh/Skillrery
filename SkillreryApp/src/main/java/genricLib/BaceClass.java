@@ -22,7 +22,7 @@ public class BaceClass {
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	}
 
-	
+	//@AfterMethod is used after the method
 	@AfterMethod
 	public void  closeApp(ITestResult result) {
 		int status =result.getStatus();
